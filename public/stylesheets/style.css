@@ -5,7 +5,7 @@
 */
 @font-face {
 	font-family: 'PhosphateInline';
-	src: url(../fonts/PhosphateInline.ttf) 
+	src: url(../fonts/HiraginoKakuGothicStandardW8.otf) 
 }
 
 @font-face {
@@ -143,14 +143,18 @@ a, a:hover, a:visited {
 	text-decoration: none;
 }
 
+
+
 .section {
 	width: 100%;
 	min-height: 600px;
 }
 
+
 .section-wrapper {
-	padding: 100px;
+	padding: 50px 100px;
 }
+
 
 #intro-section {
 	height: 100vh;
@@ -158,6 +162,9 @@ a, a:hover, a:visited {
 }
 
 .intro {
+	display: flex;
+	align-items: center;
+	padding: 100px;
 }
 
 .intro h1 {
@@ -171,6 +178,7 @@ a, a:hover, a:visited {
 
 .intro-text-container {
 	float:right;
+	top: 50%;
 }
 
 .tilted-squares-container {
@@ -181,18 +189,18 @@ a, a:hover, a:visited {
 	position: absolute;
 	height: 300px;
 	width: 300px;
-  -ms-transform: rotate(30deg); /* IE 9 */
-  -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
-  transform: rotate(30deg)
+	-ms-transform: rotate(30deg); /* IE 9 */
+	-webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+	transform: rotate(30deg)
 }
 
 .small-tilt-right {
 	position: absolute;
 	height: 280px;
 	width: 280px;
-  -ms-transform: rotate(8deg); /* IE 9 */
-  -webkit-transform: rotate(8deg); /* Chrome, Safari, Opera */
-  transform: rotate(8deg)
+	-ms-transform: rotate(8deg); /* IE 9 */
+	-webkit-transform: rotate(8deg); /* Chrome, Safari, Opera */
+	transform: rotate(8deg)
 }
 
 .small-tilt-left {
@@ -200,9 +208,9 @@ a, a:hover, a:visited {
 	height: 260px;
 	width: 260px;
 	background-size: 260px 260px;
-  -ms-transform: rotate(-8deg); /* IE 9 */
-  -webkit-transform: rotate(-8deg); /* Chrome, Safari, Opera */
-  transform: rotate(-8deg);
+	-ms-transform: rotate(-8deg); /* IE 9 */
+	-webkit-transform: rotate(-8deg); /* Chrome, Safari, Opera */
+  	transform: rotate(-8deg);
 	background-image: url('../images/profilePicture.jpg');
 }
 
@@ -250,7 +258,7 @@ a, a:hover, a:visited {
 
 .skill-list li {
 	padding: 2px;
-	font-size: .8em;
+	font-size: 1em;
 }
 
 
@@ -274,13 +282,14 @@ a, a:hover, a:visited {
 	/*text-align: right;*/
 }
 
-.section-wrapper:last-child {
+#footer .section-wrapper {
 	padding: 50px;
 }
 
 .long-heading span {
 	display: inline-block;
 }
+
 
 @media (max-width: 1000px) {
 	h1 {
