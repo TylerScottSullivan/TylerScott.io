@@ -312,7 +312,7 @@ a, a:hover, a:visited {
 
 	.section-wrapper {
 		padding: 50px 0;
-		width: 95vw;
+		width: 90vw;
 		margin: 0 auto;
 	}
 
@@ -323,7 +323,7 @@ a, a:hover, a:visited {
 
 	.intro-container {
 		margin-left: 30px;
-		width: 100%;
+		width: auto;
 	}
 
 	.intro-text-container {
